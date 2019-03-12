@@ -12,7 +12,7 @@ You can buy an item and pay for it by paypal.
 
 ![payment](images/paypal999.png)
 
-![entity](images/entity.png)
+![entity](images/entite.png)
 
 ## Development
 

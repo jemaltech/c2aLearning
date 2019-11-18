@@ -19,6 +19,12 @@ import { PaypalSampleAppAccountModule } from './account/account.module';
 import { PaypalSampleAppEntityModule } from './entities/entity.module';
 import * as moment from 'moment';
 import { PaypalSampleAppPaypalPaymentsModule } from './paypal-payments/paypal-payments.module';
+import { PaypalSampleAppTestServicesModule } from './test-services/test-services.module';
+import { PaypalSampleAppTestToolsModule } from './test-tools/test-tools.module';
+import { PaypalSampleAppOurTrainingsModule } from './our-trainings/our-trainings.module';
+import { PaypalSampleAppAboutUsModule } from './about-us/about-us.module';
+import { PaypalSampleAppContactUsModule } from './contact-us/contact-us.module';
+import { PaypalSampleAppSearchModule } from './search/search.module';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent, ErrorComponent } from './layouts';
 
@@ -36,6 +42,12 @@ import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent
         PaypalSampleAppHomeModule,
         PaypalSampleAppAccountModule,
         PaypalSampleAppPaypalPaymentsModule,
+        PaypalSampleAppTestServicesModule,
+        PaypalSampleAppTestToolsModule,
+        PaypalSampleAppOurTrainingsModule,
+        PaypalSampleAppAboutUsModule,
+        PaypalSampleAppContactUsModule,
+        PaypalSampleAppSearchModule,
         // jhipster-needle-angular-add-module JHipster will add new module here
         PaypalSampleAppEntityModule,
         PaypalSampleAppAppRoutingModule

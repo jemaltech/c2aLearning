@@ -1,0 +1,11 @@
+version: '2'
+services:
+  app2automate-postgresql:
+    image: postgres:11.5
+    volumes:
+      - ~/volumes/jhipster/app2automate/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=app2automate
+      - POSTGRES_PASSWORD=techno@2009
+    ports:
+      - 5432:5432

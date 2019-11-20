@@ -3,10 +3,10 @@ services:
     paypalsampleapp-mysql:
         image: mysql:5.7.20
         volumes:
-           - ~/volumes/jhipster/PaypalSampleApp/mysql/:/var/lib/mysql/
+            - ~/volumes/jhipster/PaypalSampleApp/mysql/:/var/lib/mysql/
         environment:
             - MYSQL_USER=root
-            - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+            - MYSQL_ALLOW_EMPTY_PASSWORD=qualitycodebase@2019
             - MYSQL_DATABASE=paypalsampleapp
         ports:
             - 3306:3306
